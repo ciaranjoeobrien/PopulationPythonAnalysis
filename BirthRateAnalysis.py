@@ -46,14 +46,3 @@ correlation_matrix = merged_df.corr(numeric_only=True)
 sns.heatmap(correlation_matrix, annot=True)
 print(list(merged_df))
 plt.show()
-
-
-
-
-
-
-
-# What countries/regions have the greatest drop in birth rate?
-# How is this impacting global population?
-
-
